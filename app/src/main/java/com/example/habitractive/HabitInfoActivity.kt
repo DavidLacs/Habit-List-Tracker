@@ -35,6 +35,7 @@ class HabitInfoActivity : AppCompatActivity() {
     lateinit var addSound : MediaPlayer
     lateinit var succesSound : MediaPlayer
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
