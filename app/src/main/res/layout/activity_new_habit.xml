@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/darkblue_bg4"
+    tools:context=".NewHabitActivity">
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:text="@string/cancel"
+        android:backgroundTint="#AB02F4"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginStart="8dp"
+        android:id="@+id/cancel_btn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enterInfo"
+        android:textSize="45sp"
+        android:textColor="#005AEF"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="@string/habitName"
+        android:textColor="@color/white"
+        android:textColorHint="#3B74D7"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_corner"
+        android:padding="18dp"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:backgroundTint="#00297A"
+        android:id="@+id/habitName_input"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="@string/repetitions"
+        android:textColor="@color/white"
+        android:textColorHint="#3B74D7"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_corner"
+        android:padding="18dp"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:backgroundTint="#00297A"
+        android:id="@+id/repetitions_input"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose an icon: "
+            android:textSize="25sp"
+            android:textColor="#6197F6"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:src="@mipmap/ic_launcher"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/exercise_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/exercise" />
+
+        <ImageButton
+            android:id="@+id/vegetable_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/vegetable" />
+
+        <ImageButton
+            android:id="@+id/water_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/water" />
+
+        <ImageButton
+            android:id="@+id/book_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/book" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/meditate_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/meditation" />
+
+        <ImageButton
+            android:id="@+id/write_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/writing" />
+
+        <ImageButton
+            android:id="@+id/cook_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/cooking" />
+
+        <ImageButton
+            android:id="@+id/cleaning_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/cleaning" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="@string/submit"
+        android:backgroundTint="#2701FF"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/submit_btn"/>
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Habitractive</string>
+
+    <string name="header">HABITRACTIVE</string>
+
+    <string name="login">Login</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <string name="members">Members</string>
+    <string name="co">Co</string>
+    <string name="lacsao">Lacsao</string>
+    <string name="yee">Yee</string>
+
+    <string name="habitList">Habit List</string>
+    <string name="newHabit">New Habit</string>
+
+    <string name="habitNameList">Habit name</string>
+
+    <string name="enterInfo">Enter Information</string>
+
+    <string name="habitName">Habit name</string>
+    <string name="repetitions">Number of repetitions</string>
+    <string name="submit">SUBMIT</string>
+
+    <string name="cancel">CANCEL</string>
+
+    <string name="habitNameInfo">Habit Name</string>
+
+    <string name="outOf">2 out of 10</string>
+</resources>
