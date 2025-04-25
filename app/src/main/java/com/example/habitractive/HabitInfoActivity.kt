@@ -32,6 +32,7 @@ class HabitInfoActivity : AppCompatActivity() {
 
     var habitArrPosition : Int = 0
 
+    // Sound Variables
     lateinit var addSound : MediaPlayer
     lateinit var succesSound : MediaPlayer
 
